@@ -50,9 +50,12 @@ p.quote {
   left: 30%;
   font-size: 1.2em;
 }
-.iteration-count{
+.iteration-count-5{
 animation-iteration-count: 5;
 }
+.iteration-count-2{
+  animation-iteration-count: 2;
+  }
 
 span.fullform {
   display: inline;
@@ -65,22 +68,22 @@ span.fullform:after {
   transition: .6s linear;
 }
 span.fullform:nth-child(1):after {
-  content: 'awaharlal ';
+  content: 'itizenship';
 }
 span.fullform:nth-child(2):after {
-  content: 'ehru ';
+  content: 'mendment ';
 }
 span.fullform:nth-child(3):after {
-  content: 'niversity ';
+  content: 'ct ';
 }
 div.expand span:nth-child(1):after {
   width: 90px;
 }
 div.expand span:nth-child(2):after {
-  width: 45px;
+  width: 105px;
 }
 div.expand span:nth-child(3):after {
-  width: 85px;
+  width: 20px;
 }
 .logo{
   top: 20%;
