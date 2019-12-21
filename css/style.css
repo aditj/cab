@@ -50,12 +50,14 @@ p.quote {
   left: 30%;
   font-size: 1.2em;
 }
+
 .iteration-count-5{
 animation-iteration-count: 5;
 }
+
 .iteration-count-2{
   animation-iteration-count: 2;
-  }
+}
 
 span.fullform {
   display: inline;
@@ -67,24 +69,31 @@ span.fullform:after {
   vertical-align: middle;
   transition: .6s linear;
 }
+
 span.fullform:nth-child(1):after {
   content: 'itizenship';
 }
+
 span.fullform:nth-child(2):after {
   content: 'mendment ';
 }
+
 span.fullform:nth-child(3):after {
   content: 'ct ';
 }
+
 div.expand span:nth-child(1):after {
   width: 90px;
 }
+
 div.expand span:nth-child(2):after {
   width: 105px;
 }
+
 div.expand span:nth-child(3):after {
   width: 20px;
 }
+
 .logo{
   top: 20%;
    
@@ -92,18 +101,21 @@ div.expand span:nth-child(3):after {
     width: 5em;
   transition: 1s linear ;
 }
+
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 3s linear forwards;
 }
 
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
   }
 }
-#naac{
+
+/*#naac{
   position: absolute;
   left: 10%;
   top: 120%;
@@ -117,4 +129,4 @@ div.expand span:nth-child(3):after {
   position: absolute;
   left: 70%;
   top: 120%;
-}
+}*/
